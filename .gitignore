@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.log
+*.local
+novashelf-backend/uploads/*
+!novashelf-backend/uploads/.gitkeep

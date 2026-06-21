@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Premium fairy tales cover">
+  <defs>
+    <radialGradient id="moon" cx=".62" cy=".28" r=".58">
+      <stop stop-color="#fff8d9"/>
+      <stop offset=".32" stop-color="#7da6ff"/>
+      <stop offset="1" stop-color="#0b1025" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#050816"/>
+      <stop offset=".48" stop-color="#1b1647"/>
+      <stop offset="1" stop-color="#102a3b"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" x2="1">
+      <stop stop-color="#55d6ff"/>
+      <stop offset=".58" stop-color="#a78bff"/>
+      <stop offset="1" stop-color="#f9d77e"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <rect width="900" height="560" fill="url(#moon)" opacity=".65"/>
+  <g fill="#ffffff" opacity=".5">
+    <circle cx="122" cy="94" r="2"/><circle cx="206" cy="168" r="1.8"/><circle cx="766" cy="86" r="2.4"/><circle cx="742" cy="338" r="1.7"/><circle cx="504" cy="116" r="2"/>
+  </g>
+  <path d="M170 382c112-72 223-73 334 0 112-73 224-73 336 0v80c-112-61-224-61-336 0-111-61-222-61-334 0z" fill="#ffffff" opacity=".08"/>
+  <path d="M184 160c103-48 202-46 296 8v260c-94-54-193-56-296-8z" fill="#ffffff" opacity=".11" stroke="#a9bbff" stroke-opacity=".28"/>
+  <path d="M480 168c96-54 195-56 296-8v260c-101-48-200-46-296 8z" fill="#ffffff" opacity=".08" stroke="#a9bbff" stroke-opacity=".28"/>
+  <path d="M220 210c66-18 126-14 180 12M220 252c72-16 138-9 198 20M220 294c60-14 116-10 168 12M526 220c68-24 132-27 192-8M526 264c78-22 147-18 207 12M526 310c54-12 106-10 156 8" stroke="url(#book)" stroke-width="7" stroke-linecap="round" opacity=".86" filter="url(#soft)"/>
+  <path d="M450 146v302" stroke="#fff" stroke-opacity=".38" stroke-width="2"/>
+  <text x="84" y="492" fill="#eef6ff" font-family="Inter, Arial" font-size="42" font-weight="800">PUBLIC DOMAIN</text>
+  <text x="88" y="526" fill="#9fb0d4" font-family="Inter, Arial" font-size="18" letter-spacing="4">FAIRY TALES ARCHIVE</text>
+</svg>

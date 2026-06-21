@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Premium visual engine SDK cover">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#06111f"/>
+      <stop offset=".5" stop-color="#151341"/>
+      <stop offset="1" stop-color="#062b35"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop stop-color="#55d6ff"/>
+      <stop offset=".6" stop-color="#9b7cff"/>
+      <stop offset="1" stop-color="#55ffcf"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <circle cx="725" cy="122" r="158" fill="#6b62ff" opacity=".22" filter="url(#glow)"/>
+  <circle cx="180" cy="450" r="190" fill="#34d5c3" opacity=".14" filter="url(#glow)"/>
+  <g opacity=".35" stroke="#b6c9ff" stroke-width="1">
+    <path d="M70 86h740M70 150h740M70 214h740M70 278h740M70 342h740M70 406h740"/>
+    <path d="M116 54v450M218 54v450M320 54v450M422 54v450M524 54v450M626 54v450M728 54v450"/>
+  </g>
+  <rect x="94" y="80" width="520" height="350" rx="28" fill="#ffffff" opacity=".08" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="126" y="118" width="248" height="24" rx="12" fill="#55d6ff" opacity=".82"/>
+  <rect x="126" y="174" width="390" height="18" rx="9" fill="#ffffff" opacity=".26"/>
+  <rect x="126" y="212" width="320" height="18" rx="9" fill="#55ffcf" opacity=".38"/>
+  <rect x="126" y="250" width="430" height="18" rx="9" fill="#9b7cff" opacity=".44"/>
+  <rect x="126" y="288" width="276" height="18" rx="9" fill="#ffffff" opacity=".22"/>
+  <path d="M622 168c56 6 104 49 112 106 10 73-44 143-118 153-62 8-121-30-142-86l92-58z" fill="#ffffff" opacity=".09"/>
+  <path d="M566 283l85-121 66 148-151-27z" fill="none" stroke="url(#edge)" stroke-width="8" stroke-linejoin="round" filter="url(#glow)"/>
+  <text x="96" y="492" fill="#eef6ff" font-family="Inter, Arial" font-size="42" font-weight="800">VISUAL ENGINE</text>
+  <text x="100" y="526" fill="#9fb0d4" font-family="Inter, Arial" font-size="18" letter-spacing="4">SDK MIRROR</text>
+</svg>
